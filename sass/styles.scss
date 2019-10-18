@@ -202,7 +202,7 @@ Navigation
   -moz-border-radius: 1px;
   -webkit-border-radius: 1px;
   border-radius: 1px;
-  background: #fff;
+  background: $primary-color;
   cursor: pointer
 }
 .nav-toggle span:before {
@@ -251,12 +251,13 @@ Navigation
 Hero
 ========================================================================== */
 .hero {
-  min-height: 750px;
-  background: url('../img/hero-min.jpg') center center;
-  -webkit-background-size: cover;
+  /*min-height: 300px;*/
+  background: url('../img/hero-min.jpg') center 80px;
+  background-repeat: no-repeat;
+/*  -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
+  background-size: cover;*/
   position: relative;
 
   /*.rsvp-btn {
@@ -293,7 +294,7 @@ Hero
 }
 .fixed {
   position: fixed;
-  background-color: rgba(55, 36, 40, .88);
+  background-color: $nav-bg-color;
   z-index: 999;
   width: 100%;
 }
@@ -328,7 +329,7 @@ header {
       display: inline;
 
       a {
-        color: $txt-light;
+        color: $primary-color;
         padding-right: 25px;
 
         &:hover {
@@ -345,7 +346,7 @@ header {
       display: inline;
 
       a {
-        color: $txt-light;
+        color: $primary-color;
 
         &:hover {
           color: $accent-color;
