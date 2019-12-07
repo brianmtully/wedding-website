@@ -43,10 +43,17 @@ $(document).ready(function () {
         offset: '75%'
     });
     $('.wp9').waypoint(function () {
+        $('.wp9').addClass('animated fadeInLeft');
+    }, {
+        offset: '75%'
+    });
+
+    $('.wp10').waypoint(function () {
         $('.wp9').addClass('animated fadeInRight');
     }, {
         offset: '75%'
     });
+
 
     /***************** Initiate Flexslider ******************/
     $('.flexslider').flexslider({
