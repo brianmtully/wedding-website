@@ -59,6 +59,7 @@ ul li {
   font-family: $cursive;
   font-weight: $normal;
   color: $txt-primary;
+  line-height: 1.5;
   -webkit-text-size-adjust: 100%;
 }
 
@@ -286,9 +287,9 @@ Hero
     font-weight: 300;
     margin-bottom: 80px;
   }
-  .hero-content {
+  /*.hero-content {
     padding-top: 100px;
-  }
+  }*/
   .hero-content img {
     width: 55%;
     margin-bottom: 12%;
@@ -327,7 +328,8 @@ header {
     display: inline-block;
   }
   .logo img {
-    height: 19px;
+    height: 60px;
+    transform: rotate(75deg);
   }
   ul.primary-nav {
     margin: 0 0 0 75px;
